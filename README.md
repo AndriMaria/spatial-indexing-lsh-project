@@ -95,17 +95,6 @@ Results are compared across:
 | Query Time | Time for LSH queries on each index's candidates |
 
 ---
-
-## 📁 Files
-
-| File | Description |
-|------|-------------|
-| `Code.txt` / `Code.py` | Main implementation |
-| `Report.docx` | Full project report with analysis and results |
-| `coffee_analysis.csv` | Dataset (not included — too large) |
-
----
-
 ## 🎓 What I Learned
 
 - Implementing spatial data structures from scratch (Octree, Range Tree)
