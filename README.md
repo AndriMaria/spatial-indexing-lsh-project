@@ -1,16 +1,15 @@
 # ☕ Coffee Recommendation System — Spatial Indexing & LSH
+**Python project implementing a multi-index similarity search system for coffee recommendations, combining **spatial data structures** with **text similarity** techniques, developed collaboratively.**
 
-Python project implementing a multi-index similarity search system for coffee recommendations, combining **spatial data structures** with **text similarity** techniques, developed collaboratively.
 
----
+
 
 ## 📌 About
-
 This project builds a coffee recommendation engine on a real-world coffee dataset (`coffee_analysis.csv`). It explores and compares four different spatial indexing structures combined with **Locality-Sensitive Hashing (LSH)** for text similarity, evaluating their performance in terms of precision, recall, F1 score, and query time.
 
 ---
 
-## 🏗️ Pipeline
+### Pipeline
 ```mermaid
 flowchart TD
     A[☕ coffee_analysis.csv] --> B[Preprocessing & Normalization]
@@ -48,7 +47,7 @@ flowchart TD
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 | | |
 |---|---|
@@ -59,6 +58,9 @@ flowchart TD
 | NLP | nltk (stopwords, lemmatization) |
 | Visualization | matplotlib |
 
+### Notes on Development
+
+- This project was developed with assistance from AI tools (ChatGPT) and PyCharm as the development environment. The focus was on understanding and applying spatial indexing concepts and similarity search techniques.
 ---
 
 ## 🔍 Spatial Structures Implemented
